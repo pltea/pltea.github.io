@@ -15,3 +15,8 @@
 section {
     font-size: 20px;
 }
+
+section > table > tbody > tr:first-child >  td:first-child {
+    color:#800000;
+    font-weight:bold;
+}
