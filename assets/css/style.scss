@@ -3,20 +3,47 @@
 
 @import "jekyll-theme-minimal";
 
-.join > a {
+.join-title {
+    text-align: center;
+}
+
+.join-gallery {
+    margin-bottom: 10px;
+}
+
+
+.join-gallery > a {
     display: inline-block;
     display: -moz-inline-box;
     *display: inline; /* For IE7 */
     zoom: 1; /* Trigger hasLayout */
     width: 32%;
     text-align: center;
+    color: #000000;
+}
+
+ul.organizer-gallery  {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+ul.organizer-gallery > li {
+    display: inline;
 }
 
 section {
     font-size: 20px;
+    text-align: justify;
 }
+
+
 
 section > table > tbody > tr:first-child >  td:first-child {
     color:#800000;
     font-weight:bold;
+}
+
+.organizer-title {
+    text-align: center;
 }

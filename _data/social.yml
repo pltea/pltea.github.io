@@ -1,0 +1,14 @@
+- name: PLTea Google Group
+  link: https://groups.google.com/g/pltea
+  icon: fa-google
+  active: true
+
+- name: PLTea Twitter Channel
+  link: https://twitter.com/PLteaforplt
+  icon: fa-twitter
+  active: true
+
+- name: "#pltea @ CSR Slack"
+  link: http://bit.ly/join-systems-slack-2019
+  icon: fa-slack
+  active: true

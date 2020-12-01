@@ -26,7 +26,6 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -42,13 +41,36 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        <div class="join">
-            <a style="color:#000000;" title="Join our Google Group" href="{{ site.google_group_url }}"><i class="fa fa-3x fa-google"></i></a>
-            <a style="color:#000000;" title="Join #pltea on CSR Slack" href="{{ site.slack_url }}"><i class="fa fa-3x fa-slack"></i></a>
-            <a style="color:#000000;" title="Follow us on Twitter" href="{{ site.twitter_url }}"><i class="fa fa-3x fa-twitter"></i></a>
+        <h2 class="join-title">Join</h2>
+
+        <div class="join-gallery">
+            {% for medium in site.data.social %}
+            {% if medium.active == true %}
+            <a href="{{ medium.link }}" title="{{ medium.name }}">
+                <i class="fa fa-3x {{ medium.icon }}"></i>
+            </a>
+            {% endif %}
+            {% endfor %}
         </div>
 
+        <div style="margin-bottom: 50px;"></div>
+
+        <h2 class="organizer-title">PLTeaM</h2>
+
+        <ul class="organizer-gallery">
+            {% for member in site.data.members %}
+            {% if member.active == true %}
+            <li>
+                <a href="{{ member.website }}">
+                    <img src="{{ member.photo }}" alt="{{ member.name }}" title="{{ member.name }}" width="85">
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
       </header>
+
       <section>
 
       {{ content }}

@@ -1,0 +1,20 @@
+- name: Aviral Goel
+  photo: /assets/img/aviral.jpg
+  website: http://aviral.io/
+  active: true
+
+- name: Rachit Nigam
+  photo: /assets/img/rachit.jpg
+  website: https://rachitnigam.com/
+  active: true
+
+- name: Paulette Koronkevich
+  photo: /assets/img/paulette.jpg
+  website: https://koronkevi.ch/
+  active: true
+
+- name: Lucy Menon
+  photo: /assets/img/lucy.jpg
+  website:
+  active: false
+
