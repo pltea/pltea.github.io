@@ -22,7 +22,8 @@ The event goes for as long as people express interest in sticking around!
 
 | When                        | Participants |
 |-----------------------------|--------------|
-| 3rd December 2020, 3PM EST  |              |
+| 28th January 2020, 3PM EST  |              |
+| 3rd December 2020, 3PM EST  |           40 |
 | 8th September 2020, 3PM EST |           45 |
 
 
