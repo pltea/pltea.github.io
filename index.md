@@ -20,11 +20,12 @@ The event goes for as long as people express interest in sticking around!
 
 # Events
 
-| When                        | Participants |
-|-----------------------------|--------------|
-| 4th March 2021, 4PM EST     |              |
-| 28th January 2021, 3PM EST  |           35 |
-| 3rd December 2020, 3PM EST  |           40 |
-| 8th September 2020, 3PM EST |           45 |
+| When                                       | Participants |
+|--------------------------------------------|--------------|
+| 25th March 2021, 5:30PM NZST (12:30AM EST) |              |
+| 4th March 2021, 4PM EST                    |           50 |
+| 28th January 2021, 3PM EST                 |           35 |
+| 3rd December 2020, 3PM EST                 |           40 |
+| 8th September 2020, 3PM EST                |           45 |
 
 [group]: https://groups.google.com/g/pltea
