@@ -22,6 +22,8 @@ The event goes for as long as people express interest in sticking around!
 
 | When                                       | Participants |
 |--------------------------------------------+--------------|
+| 14th June 2023, 3PM EST                    |              |
+| 10th May 2023, 3PM EST                     |              |
 | 12th April 2023, 3PM EST                   |              |
 | 30th April 2021, 3PM EST                   |              |
 | 25th March 2021, 5:30PM NZST (12:30AM EST) |              |
