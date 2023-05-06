@@ -22,6 +22,15 @@
     color: #000000;
 }
 
+ul.organizer-names  {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 80% 
+}
+
 ul.organizer-gallery  {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
