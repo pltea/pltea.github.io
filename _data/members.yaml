@@ -4,8 +4,8 @@
   active: true
 
 - name: Stephen De Gabrielle
-  photo: TODO
-  website: website
+  photo: /assets/img/stephen.jpg
+  website: https://racket.discourse.group/u/spdegabrielle
   active: true
 
 - name: Aviral Goel
