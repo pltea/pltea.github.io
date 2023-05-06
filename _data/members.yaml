@@ -1,3 +1,13 @@
+- name: Karuna Grewal
+  photo: /assets/img/karuna.jpg
+  website: https://aakp10.github.io/
+  active: true
+
+- name: Stephen De Gabrielle
+  photo: TODO
+  website: website
+  active: true
+
 - name: Aviral Goel
   photo: /assets/img/aviral.jpg
   website: http://aviral.io/
