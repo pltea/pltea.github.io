@@ -59,9 +59,21 @@
 
         <h2 class="organizer-title">PLTeaM</h2>
 
-        <ul class="organizer-gallery">
+        <ul class="organizer-names">
             {% for member in site.data.members %}
             {% if member.active == true %}
+            <li>
+                <a href="{{ member.website }}">
+                    {{ member.name }}
+                </a>
+            </li>
+            <br>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <ul class="organizer-gallery">
+            {% for member in site.data.members %}
+            {% if member.active == true and member.photo != "TODO" %}
             <li>
                 <a href="{{ member.website }}">
                     <img src="{{ member.photo }}" alt="{{ member.name }}" title="{{ member.name }}" width="85">
