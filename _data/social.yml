@@ -11,4 +11,9 @@
 - name: "#pltea @ CSR Slack"
   link: http://bit.ly/join-systems-slack-2019
   icon: fa-slack
+  active: false
+
+- name: "PLtea Mastodon"
+  link: https://mastodon.social/@PLTea
+  icon: fa-mastodon
   active: true
