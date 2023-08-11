@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
->  	🎊  **[PLTea](https://pldi23.sigplan.org/track/pldi-2023-social#program) is going to [PLDI'23](https://pldi23.sigplan.org/track/pldi-2023-social#program). Hope to see you there 18 June through 22 June at 11 am (EST).**	🎊 
 
 # What is PLTea?
 
@@ -31,6 +30,7 @@ The event goes for as long as people express interest in sticking around!
 |--------------------------------------------+
 | 11am EDT @ [PLDI'23](https://pldi23.sigplan.org/track/pldi-2023-social#program)           |
 | 26th July 2023, 2PM ET                  |
+| PLDI |
 | 10th May 2023, 2PM EDT                     |
 | 12th April 2023, 3PM EST                   |
 | **Rebooting...**                           |
