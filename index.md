@@ -22,15 +22,15 @@ The event goes for as long as people express interest in sticking around!
 
 | When                                       |
 |--------------------------------------------|
-| 23rd August 2023, 2PM ET                  |
+| 27th September 2023, 2PM ET                  |
 
 # Past Events 
 
 | When                                       | 
 |--------------------------------------------+
-| 11am EDT @ [PLDI'23](https://pldi23.sigplan.org/track/pldi-2023-social#program)           |
+| 23rd August 2023, 2PM ET                  |
 | 26th July 2023, 2PM ET                  |
-| PLDI |
+| 11am EDT @ [PLDI'23](https://pldi23.sigplan.org/track/|
 | 10th May 2023, 2PM EDT                     |
 | 12th April 2023, 3PM EST                   |
 | **Rebooting...**                           |
