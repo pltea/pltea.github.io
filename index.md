@@ -28,7 +28,7 @@ The event goes for as long as people express interest in sticking around!
 
 | When                                       | 
 |--------------------------------------------+
-| 21th February 2024, 7PM UTC                  |
+| 21st February 2024, 7PM UTC                  |
 | 5th December 2023, 7PM UTC                 |
 | 25th October 2023, 2PM ET                  |
 | 27th September 2023, 2PM ET                  |
