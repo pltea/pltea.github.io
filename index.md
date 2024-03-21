@@ -22,7 +22,7 @@ The event goes for as long as people express interest in sticking around!
 
 | When                                       |
 |--------------------------------------------|
-| 20th March 2024, 2PM ET                  |
+| 27th March 2024, 6PM UTC                  |
 
 # Past Events 
 
