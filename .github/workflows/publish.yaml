@@ -7,26 +7,21 @@ jobs:
   jekyll:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4.1.7
+    - name: setup
+        uses: actions/checkout@v4.1.7
     - name: setup ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.192.0
         with:
           ruby-version: 2.7 # can change this to whatever version you prefer
 
-      - name: install dependencies & build site
+    - name: install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
 
-    # Specify the target branch (optional)
-    - uses: jeffreytse/jekyll-deploy-action@v0.5.1
-      with:
-        provider: 'github'
-        token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
-        repository: ''             # Default is current repository
-        branch: 'gh-pages'         # Default is gh-pages for github provider
-        jekyll_src: './'           # Default is root directory
-        jekyll_cfg: '_config.yml'  # Default is _config.yml
-        jekyll_baseurl: ''         # Default is according to _config.yml
-        bundler_ver: ''         # Default is latest bundler version
-        cname: ''                  # Default is to not use a cname
-        actor: ''                  # Default is the GITHUB_ACTOR
-        pre_build_commands: ''     # Installing additional dependencies (Arch Linux)
+    - name: deploy
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          # if the repo you are deploying to is <username>.github.io, uncomment the line below.
+          # if you are including the line below, make sure your source files are NOT in the master branch:
+          publish_branch: 'gh-pages'
