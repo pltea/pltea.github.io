@@ -8,6 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4.1.7
+    - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7 # can change this to whatever version you prefer
+
+      - name: install dependencies & build site
+        uses: limjh16/jekyll-action-ts@v2
 
     # Specify the target branch (optional)
     - uses: jeffreytse/jekyll-deploy-action@v0.5.1
