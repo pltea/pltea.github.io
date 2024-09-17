@@ -7,8 +7,15 @@ jobs:
   jekyll:
     runs-on: ubuntu-latest
     steps:
-    - name: setup
-        uses: actions/checkout@v4.1.7
+    - uses: actions/checkout@v3
+
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v4.0.2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
   
     - name: setup ruby
         uses: ruby/setup-ruby@v1.192.0
