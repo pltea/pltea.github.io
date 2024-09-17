@@ -14,11 +14,11 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: install dependencies & build site
-        uses: limjh16/jekyll-action-ts@v2
+      uses: limjh16/jekyll-action-ts@v2
 
     - name: deploy
-        uses: peaceiris/actions-gh-pages@v4.0.0
-        with:
+      uses: peaceiris/actions-gh-pages@v4.0.0
+      with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           # if the repo you are deploying to is <username>.github.io, uncomment the line below.
