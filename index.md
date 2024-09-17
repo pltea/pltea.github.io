@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+🎊  **Hang out in our [PLTea discord](https://discord.gg/d7xK5yuNYk)!** 	🎊
 
+---
 # What is PLTea?
 
 [PLTea](https://pltea.github.io/) is an initiative to bring together the members of the programming languages community for informal virtual discussions.
@@ -14,7 +16,8 @@ This is doubly true if you are a student curious to learn programming languages.
 
 # How do I join?
 
-The logistics are simple. You express your interest by joining our [Google Group][group] where we share a registration links for the next meeting.
+The logistics are simple. You express your interest by joining our [Google Group][group] and (or) in the [PLTea discord](https://discord.gg/d7xK5yuNYk), where we share a registration links for the next meeting. 
+
 During PLTea, all participants are randomly assigned to breakout rooms. The rooms are shuffled every fifteen to twenty minutes.
 The event goes for as long as people express interest in sticking around!
 
@@ -22,12 +25,16 @@ The event goes for as long as people express interest in sticking around!
 
 | When                                       |
 |--------------------------------------------|
-| 27th March 2024, 6PM UTC                  |
+| 4th October 2024, 3PM UTC                  |
 
 # Past Events 
 
 | When                                       | 
 |--------------------------------------------+
+| 6th September 2024, 3PM UTC                  |
+| 9th August 2024, 3PM UTC                  |
+| 19th July 2024, 3PM UTC                  |
+| 27th March 2024, 6PM UTC                  |
 | 21st February 2024, 7PM UTC                  |
 | 5th December 2023, 7PM UTC                 |
 | 25th October 2023, 2PM ET                  |
@@ -46,3 +53,4 @@ The event goes for as long as people express interest in sticking around!
 | 8th September 2020, 3PM EST                |
 
 [group]: https://groups.google.com/g/pltea
+[Discord]: https://discord.gg/d7xK5yuNYk
